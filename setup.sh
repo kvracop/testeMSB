@@ -14,4 +14,4 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 bash get-docker.sh
 
 # Instala o plugin docker-compose
-apt-get install -y docker-compose-plugin
+apt-get install docker-compose-plugin
