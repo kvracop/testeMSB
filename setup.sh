@@ -1,8 +1,4 @@
 #!/bin/bash
-# Atualiza e atualiza o sistema
-apt-get update -y
-apt-get upgrade -y
-
 # Baixa e instala o aaPanel
 URL=https://www.aapanel.com/script/install_7.0_en.sh
 if [ -f /usr/bin/curl ]; then
