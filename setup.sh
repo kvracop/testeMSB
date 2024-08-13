@@ -15,3 +15,4 @@ sh get-docker.sh
 
 # Instala o plugin docker-compose
 apt install docker-compose-plugin
+###Fim
