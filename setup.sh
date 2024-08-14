@@ -11,7 +11,7 @@ yes | bash install_7.0_en.sh 93684c35 > installTest.log 2>&1
 
 # Baixa e instala o Docker
 curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh
+bash get-docker.sh
 
 # Instala o plugin docker-compose
 apt install docker-compose-plugin
