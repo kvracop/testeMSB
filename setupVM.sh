@@ -1,4 +1,3 @@
-#!/bin/bash
 apt update
 # Baixa e instala o aaPanel
 URL=https://www.aapanel.com/script/install_7.0_en.sh
