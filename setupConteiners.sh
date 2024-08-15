@@ -10,3 +10,4 @@ docker run --detach --hostname 127.0.0.1 --env GITLAB_OMNIBUS_CONFIG="external_u
 #Personalizando conteiners
 docker exec myjenkins cat /var/jenkins_home/secrets/initialAdminPassword > chaveJenkins.txt
 chmod 777 -R /var/n8n_home/
+docker exec gitlab grep 'Password:' /etc/gitlab/initial_root_password > senhaGitlab.txt
