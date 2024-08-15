@@ -27,9 +27,9 @@
 4. Para acessar a página do GLPI ultilize: http://localhost:22571/
    a. Utilize a o login glpi e senha glpi
 5. Para acessar a página do 8N8 ultilize:  http://localhost:5678/
-   Siga os passos da instalação padrão da página
+   a. Siga os passos da instalação padrão da página
 6. Para acessar a página do gitlab_http ultilize: http://localhost:8081/
-   Siga os passos da instalação padrão da página
+   a. utiliza o login`root` e a senha obtida por meio do comando `cat testeMSB/senhaGitlab.txt`
 # Etapa 3: Automação do N8N
 1. Para a etapa de automação faremos com que uma mensagem de ‘olá’ seja exibida de 1 em 1 minuto
 ![Captura de tela 2024-08-15 111914](https://github.com/user-attachments/assets/b5ba5139-7dcf-4035-ac32-e5a5864b2d92)
