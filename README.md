@@ -3,7 +3,6 @@
 ## Criação da Máquina Virtual Ubuntu 24.2 no VirtualBox
 
 # Etapa 1: **Preparação do Ambiente VM/VPS**
-
 1. **Instalar o VirtualBox**
     - Acesse VirtualBox Downloads e baixe a versão apropriada para seu sistema operacional.
     - Siga as instruções de instalação fornecidas no site.
