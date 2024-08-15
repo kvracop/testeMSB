@@ -22,14 +22,23 @@
 # Etapa 2: **Preparação dos containers**
 1. Ultilize o comando:  `. setupConteiners.sh`
 2. Para acessar a página do jenkins ultilize: http://localhost:8080/
-a. Obtenha a chave  com o comando: `cat testeMSB/chaveJenkins.txt`
+   
+    a. Obtenha a chave  com o comando: `cat testeMSB/chaveJenkins.txt`  
+
 4. Para acessar a página do aaPanel ultilize: usando [localhost](http://localhost) + porta e caminho de segurança presentes no arquivo `installTest.log`
-5. Para acessar a página do GLPI ultilize: http://localhost:22571/
-a. Utilize o login glpi e senha glpi
-6. Para acessar a página do 8N8 ultilize:  http://localhost:5678/
-a. Siga os passos da instalação padrão da página
-7. Para acessar a página do gitlab_http ultilize: http://localhost:8081/
-a. utilize o login`root` e a senha obtida por meio do comando `cat testeMSB/senhaGitlab.txt`
+   
+6. Para acessar a página do GLPI ultilize: http://localhost:22571/
+   
+    a. Utilize o login glpi e senha glpi  
+ 
+8. Para acessar a página do 8N8 ultilize:  http://localhost:5678/
+   
+    a. Siga os passos da instalação padrão da página  
+ 
+10. Para acessar a página do gitlab_http ultilize: http://localhost:8081/
+    
+    a. utilize o login`root` e a senha obtida por meio do comando `cat testeMSB/senhaGitlab.txt`  
+ 
 # Etapa 3: Automação do N8N
 1. Para a etapa de automação faremos com que uma mensagem de ‘olá’ seja exibida de 1 em 1 minuto
 ![Captura de tela 2024-08-15 111914](https://github.com/user-attachments/assets/b5ba5139-7dcf-4035-ac32-e5a5864b2d92)
